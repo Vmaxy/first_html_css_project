@@ -1,2 +1,2 @@
-This is the first html and css (only frontend project )that i build with the help of sheariyan school .i implemented lot of my own things in this project like diffrent font, inmage , and my own style rather than copying everthing in the tutorial.
+This is the first html and css (only frontend project )that i build with the help of sheariyan school .i implemented lot of my own things in this project like diffrent font, inmage , and my own style rather than copying everthing in the tutorial
 :)
