@@ -1,0 +1,115 @@
+@font-face{
+    font-family:freedom;
+    src: url(./fonts/Freedom-10eM.ttf);
+    font-family:max;
+    src: url(./fonts/Aloevera-OVoWO.ttf);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    background-color:rgb(190, 252, 66);
+}
+nav{
+    
+    padding: 60px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: black;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    gap: 75px;
+}
+h3{
+    font-family:freedom;
+    font-size: 48px;
+    font-weight: 50;
+}
+nav a{
+    font-size: 27px;
+    color: black;
+    text-decoration: none;
+}
+section .hero1{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family:max;
+}
+section{
+    padding: 60px 90px;
+}
+.hero1 h1{
+    display: flex;
+    align-items: flex-start;
+    font-size: 220px;
+    font-family:max;
+}
+.hero1 .video{
+   height: 100px;
+   width: 500px;
+   background-color: rgb(31, 41, 41);
+   border-radius: 100px;
+    background-image: url(im.png);
+    background-size:cover;
+    background-position:center;
+    padding: 5px;
+
+}
+.video .play{
+    background-color: black;
+    height: 90px;
+    width: 110px;
+    border-radius: 100px;
+    border: 3px solid seashell;
+}
+section .hero2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.hero2 h1{
+    display: flex;
+    align-items: flex-start;
+    font-size: 220px;
+    font-family:max;
+    height: 200px;
+}
+.hero2 p{
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 800px;
+    font-weight: 300px;
+
+}
+.ims .cube{
+ height: 900px;
+ width: 100%;
+ background-color: blue;
+ border-top-left-radius: 100px;
+ border-top-right-radius: 100px;
+ background-image: url(im.png);
+ background-position: center;
+ background-size: cover;
+ width: 90%;
+margin-left: 5%;
+
+}
